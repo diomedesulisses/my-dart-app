@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Lemon';
+  src: url('Lemon.otf');
+}
+
+body {
+  background: rgb(206,205,219);
+  background: linear-gradient(90deg, rgba(206,205,219,1) 0%, rgba(138,138,172,1) 49%, rgba(159,161,162,1) 100%);
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+html, body, #webgl-canvas {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.fundo {
+  font-family: 'Lemon';
+  margin-top: 15vh;
+  margin-left: auto;
+  margin-right: auto;
+  height: 70vh;
+  width: 60vw;
+  background-color: #F7F7F7;
+  border: 2px #4C8AF5 solid;
+  border-radius: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.opBasicas input {
+  display: inline;
+  margin-top: 5vh;
+  margin-left: 9vw;
+  width: 10vw;
+  height: 3vh;
+}
+
+.opBasicas button {
+  position: relative;
+  left: 5vw;
+}
+
+h1 {
+  margin-top: 10vh;
+  text-align: center;
+}
+
+#tresD {
+  margin-left: 28vw;
+  background-color: blueviolet;
+  height: 5vh;
+  width: 2vw;
+}
