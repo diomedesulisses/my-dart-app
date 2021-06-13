@@ -71,7 +71,7 @@ void div() {
 
   if (num1 == 0 || num2 == 0) {
     HTML.document.getElementById('res').text = 'divisão por zero';
-    //
+    // http://auth-eye.brazilsouth.cloudapp.azure.com/
   } else {
     HTML.document.getElementById('res').text = (num1 / num2).toString();
   }
